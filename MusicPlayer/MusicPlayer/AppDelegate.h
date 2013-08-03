@@ -8,14 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import "RootViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) UILabel *songLabel,*singerLabel;
-@property (strong, nonatomic) UISlider *songProgress,*volumeSlider;
-@property (strong, nonatomic) UILabel *currentTimeLabel,*durationLabel;
-@property (strong, nonatomic) UIButton *playButton,*pauseButton,*quiteButton;
-@property (strong, nonatomic) AVAudioPlayer *player;
-
+@property (strong, nonatomic) RootViewController *rootViewController;
 @end

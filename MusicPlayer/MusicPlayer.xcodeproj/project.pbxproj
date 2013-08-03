@@ -26,6 +26,7 @@
 		1743DDAD17AB996900387B49 /* quite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1743DDAC17AB996900387B49 /* quite.png */; };
 		1743DDAF17AB9AEF00387B49 /* Knockin'_on_Heaven's_Door.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1743DDAE17AB9AEF00387B49 /* Knockin'_on_Heaven's_Door.mp3 */; };
 		1743DDB117AB9B0A00387B49 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1743DDB017AB9B0A00387B49 /* AVFoundation.framework */; };
+		17F1E18717ACE17500B2079B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F1E18617ACE17500B2079B /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		1743DDAC17AB996900387B49 /* quite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quite.png; sourceTree = "<group>"; };
 		1743DDAE17AB9AEF00387B49 /* Knockin'_on_Heaven's_Door.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Knockin'_on_Heaven's_Door.mp3"; sourceTree = "<group>"; };
 		1743DDB017AB9B0A00387B49 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		17F1E18517ACE17500B2079B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		17F1E18617ACE17500B2079B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 			children = (
 				1743DD8717AB861700387B49 /* AppDelegate.h */,
 				1743DD8817AB861700387B49 /* AppDelegate.m */,
+				17F1E18517ACE17500B2079B /* RootViewController.h */,
+				17F1E18617ACE17500B2079B /* RootViewController.m */,
 				1743DDAE17AB9AEF00387B49 /* Knockin'_on_Heaven's_Door.mp3 */,
 				1743DD9717AB879400387B49 /* image */,
 				1743DD7F17AB861700387B49 /* Supporting Files */,
@@ -214,6 +219,7 @@
 			files = (
 				1743DD8517AB861700387B49 /* main.m in Sources */,
 				1743DD8917AB861700387B49 /* AppDelegate.m in Sources */,
+				17F1E18717ACE17500B2079B /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
